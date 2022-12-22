@@ -1,0 +1,119 @@
+[
+    {
+        "label": "turtle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "turtle",
+        "description": "turtle",
+        "detail": "turtle",
+        "documentation": {}
+    },
+    {
+        "label": "curve",
+        "kind": 2,
+        "importPath": ".history.love_20221222185122",
+        "description": ".history.love_20221222185122",
+        "peekOfCode": "def curve():\n    for i in range(200):\n        # Defining step by step curve motion\n        pen.right(1)\n        pen.forward(1)\n# Defining method to draw a full heart\ndef heart():\n    pen.fillcolor('red')\n    pen.begin_fill()\n    pen.left(140)",
+        "detail": ".history.love_20221222185122",
+        "documentation": {}
+    },
+    {
+        "label": "heart",
+        "kind": 2,
+        "importPath": ".history.love_20221222185122",
+        "description": ".history.love_20221222185122",
+        "peekOfCode": "def heart():\n    pen.fillcolor('red')\n    pen.begin_fill()\n    pen.left(140)\n    pen.forward(113)\n    curve()\n    pen.left(120)\n    curve()\n    pen.forward(112)\n    pen.end_fill()",
+        "detail": ".history.love_20221222185122",
+        "documentation": {}
+    },
+    {
+        "label": "txt",
+        "kind": 2,
+        "importPath": ".history.love_20221222185122",
+        "description": ".history.love_20221222185122",
+        "peekOfCode": "def txt():\n    pen.up()\n    pen.setpos(-68, 95)\n    pen.down()\n    pen.color('lightgreen')\n    pen.write(\"semangat len, jgn hobi diem\", font=(\n      \"Verdana\", 12, \"bold\"))\nheart()\ntxt()\npen.ht()",
+        "detail": ".history.love_20221222185122",
+        "documentation": {}
+    },
+    {
+        "label": "pen",
+        "kind": 5,
+        "importPath": ".history.love_20221222185122",
+        "description": ".history.love_20221222185122",
+        "peekOfCode": "pen = turtle.Turtle()\ndef curve():\n    for i in range(200):\n        # Defining step by step curve motion\n        pen.right(1)\n        pen.forward(1)\n# Defining method to draw a full heart\ndef heart():\n    pen.fillcolor('red')\n    pen.begin_fill()",
+        "detail": ".history.love_20221222185122",
+        "documentation": {}
+    },
+    {
+        "label": "curve",
+        "kind": 2,
+        "importPath": ".history.love_20221222185123",
+        "description": ".history.love_20221222185123",
+        "peekOfCode": "def curve():\n    for i in range(200):\n        # Defining step by step curve motion\n        pen.right(1)\n        pen.forward(1)\n# Defining method to draw a full heart\ndef heart():\n    pen.fillcolor('red')\n    pen.begin_fill()\n    pen.left(140)",
+        "detail": ".history.love_20221222185123",
+        "documentation": {}
+    },
+    {
+        "label": "heart",
+        "kind": 2,
+        "importPath": ".history.love_20221222185123",
+        "description": ".history.love_20221222185123",
+        "peekOfCode": "def heart():\n    pen.fillcolor('red')\n    pen.begin_fill()\n    pen.left(140)\n    pen.forward(113)\n    curve()\n    pen.left(120)\n    curve()\n    pen.forward(112)\n    pen.end_fill()",
+        "detail": ".history.love_20221222185123",
+        "documentation": {}
+    },
+    {
+        "label": "txt",
+        "kind": 2,
+        "importPath": ".history.love_20221222185123",
+        "description": ".history.love_20221222185123",
+        "peekOfCode": "def txt():\n    pen.up()\n    pen.setpos(-68, 95)\n    pen.down()\n    pen.color('lightgreen')\n    pen.write(\"semangat len, jgn hobi diem\", font=(\n      \"Verdana\", 12, \"bold\"))\nheart()\ntxt()\npen.ht()",
+        "detail": ".history.love_20221222185123",
+        "documentation": {}
+    },
+    {
+        "label": "pen",
+        "kind": 5,
+        "importPath": ".history.love_20221222185123",
+        "description": ".history.love_20221222185123",
+        "peekOfCode": "pen = turtle.Turtle()\ndef curve():\n    for i in range(200):\n        # Defining step by step curve motion\n        pen.right(1)\n        pen.forward(1)\n# Defining method to draw a full heart\ndef heart():\n    pen.fillcolor('red')\n    pen.begin_fill()",
+        "detail": ".history.love_20221222185123",
+        "documentation": {}
+    },
+    {
+        "label": "curve",
+        "kind": 2,
+        "importPath": "love",
+        "description": "love",
+        "peekOfCode": "def curve():\n    for i in range(200):\n        # Defining step by step curve motion\n        pen.right(1)\n        pen.forward(1)\n# Defining method to draw a full heart\ndef heart():\n    pen.fillcolor('red')\n    pen.begin_fill()\n    pen.left(140)",
+        "detail": "love",
+        "documentation": {}
+    },
+    {
+        "label": "heart",
+        "kind": 2,
+        "importPath": "love",
+        "description": "love",
+        "peekOfCode": "def heart():\n    pen.fillcolor('red')\n    pen.begin_fill()\n    pen.left(140)\n    pen.forward(113)\n    curve()\n    pen.left(120)\n    curve()\n    pen.forward(112)\n    pen.end_fill()",
+        "detail": "love",
+        "documentation": {}
+    },
+    {
+        "label": "txt",
+        "kind": 2,
+        "importPath": "love",
+        "description": "love",
+        "peekOfCode": "def txt():\n    pen.up()\n    pen.setpos(-68, 95)\n    pen.down()\n    pen.color('lightgreen')\n    pen.write(\"semangat len, jgn hobi diem\", font=(\n      \"Verdana\", 12, \"bold\"))\nheart()\ntxt()\npen.ht()",
+        "detail": "love",
+        "documentation": {}
+    },
+    {
+        "label": "pen",
+        "kind": 5,
+        "importPath": "love",
+        "description": "love",
+        "peekOfCode": "pen = turtle.Turtle()\ndef curve():\n    for i in range(200):\n        # Defining step by step curve motion\n        pen.right(1)\n        pen.forward(1)\n# Defining method to draw a full heart\ndef heart():\n    pen.fillcolor('red')\n    pen.begin_fill()",
+        "detail": "love",
+        "documentation": {}
+    }
+]
